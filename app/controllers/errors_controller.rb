@@ -1,4 +1,4 @@
-class ErrorsController < ActionController::Base
+class ErrorsController < ApplicationController
 
   def not_found
     render :text => "NOT FOUND"
